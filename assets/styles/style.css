@@ -1,0 +1,2136 @@
+/* подключение стилей к стилям */
+@import url("./fonts.css");
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Corm';
+    font-size: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.section-navigation {}
+
+.section-navigation .princip {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    gap: 8px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-navigation .princip a {
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+}
+
+.section-navigation .istoria a {
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+}
+
+.section-navigation .istoria {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    color: rgb(97, 82, 72);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.section-navigation .logotip .logo {
+    font-size: 25px;
+    color: rgba(97, 82, 72, 0.87);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+
+}
+
+.section-kartinochki {}
+
+.section-kartinochki .container {
+    width: 1300px;
+    height: 900px;
+    display: flex;
+}
+
+.section-kartinochki p {
+    font-size: 80px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+    position: relative;
+    bottom: 310px;
+    left: 290px;
+    z-index: 1000;
+}
+
+.section-kartinochki .container .first-pic {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    left: 460px;
+}
+
+.section-kartinochki .second-pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 100px;
+}
+
+.section-kartinochki .second-pictures .i2 {
+    position: relative;
+    bottom: 60px;
+    right: 200px;
+}
+
+.section-kartinochki .second-pictures .i3 {
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    height: 700px;
+    width: 600px;
+}
+
+.section-kartinochki .sign {
+    position: relative;
+    right: 360px;
+    bottom: 20px;
+    opacity: 0.25;
+}
+
+.section-loveself {
+    height: 300px;
+}
+
+.section-loveself .container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+
+.section-loveself .draw {
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+    opacity: 1;
+}
+
+.section-loveself .text {
+    font-size: 35px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+
+}
+
+.section-loveself .logo-brown {
+    font-weight: 650;
+    color: rgb(97, 82, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.section-loveself .text pre {
+    font-size: 35px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+}
+
+.section-collection {
+    height: 500px;
+}
+
+.section-collection .soap img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-collection .line {
+    display: flex;
+    justify-content: start;
+    height: 2px;
+    width: 60px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-top: 15px;
+}
+
+.section-collection .katalog {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.section-collection .container .tex {
+    display: flex;
+    font-size: 17px;
+    font-family: "Montserrat";
+    color: rgb(97, 82, 72);
+    text-transform: uppercase;
+}
+
+.section-collection .zagolovok {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+}
+
+.section-collection .soap {
+    display: flex;
+    justify-content: start;
+    font-family: "Montserrat";
+}
+
+.section-collection .katalog .price {
+    display: flex;
+    justify-content: start;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: rgb(97, 82, 72);
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.section-collection .soap .description {
+    display: flex;
+    font-family: "Montserrat";
+    width: 80px;
+    color: rgb(97, 82, 72);
+    font-size: 18px;
+    position: relative;
+    justify-content: baseline;
+    top: 300px;
+    right: 300px;
+    gap: 3px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.section-collection .katalog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 320px;
+    gap: 40px;
+}
+
+.section-collection .katalog .half {
+    position: relative;
+    height: 300px;
+    width: 300px;
+
+}
+
+.section-collection .soap .plus {
+    height: 35px;
+    width: 35px;
+    opacity: 0.5;
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+
+.section-collection .soap .strela {
+    opacity: 0.5;
+    position: relative;
+    top: 150px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.section-story {
+    height: 950px;
+}
+
+.section-story .container {
+    margin-right: 15px;
+}
+
+.section-story img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.section-story .photka {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 50px;
+}
+
+.section-story .photka p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.section-story .photka .mila {
+    display: flex;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    gap: 10px;
+}
+
+.section-story .text-mila p {
+    font-size: 15px;
+}
+
+.section-story .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.section-story .line {
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 60px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-top: 15px;
+}
+
+.section-story .zagolovok-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.section-story h3 {
+    display: flex;
+    font-size: 20px;
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-story .opisanie {
+    font-family: "Corm";
+    position: relative;
+    bottom: 50px;
+    color: rgb(97, 82, 72);
+    width: 1100px;
+}
+
+.section-story .opisanie p {
+    width: 720px;
+    font-size: 25px;
+}
+
+.section-story .opisanie h2 {
+    font-family: "Corm";
+    font-size: 50px;
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section-story .container {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+.section-story .kartinke .vtoraya {
+    height: 200px;
+    width: 200px;
+    border-radius: 0%;
+    position: relative;
+    top: 400px;
+    right: 250px;
+
+}
+
+.section-story .kartinke .pervaia {
+    height: 550px;
+    width: 400px;
+    border-radius: 0%;
+    position: relative;
+    right: 250px;
+    bottom: 40px;
+}
+
+.section-story .kartinke {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    right: 350px;
+}
+
+.section-story .kartinke .rose {
+    opacity: 2;
+    height: 600px;
+    width: 200px;
+    position: relative;
+    left: 550px;
+}
+
+.section-plushki {
+    height: 400px;
+}
+
+.section-plushki .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    width: 1000px;
+    gap: 80px;
+
+}
+
+.section-plushki .container .cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 340px;
+    color: rgb(97, 82, 72);
+}
+
+.section-plushki .cell img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 120px;
+
+}
+
+.section-plushki .container .cell .textik {
+    font-family: "Corm";
+    font-size: 22px;
+}
+
+/* .section-shine{
+
+    height: 500px;  
+}
+.section-shine .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-shine .container .bacg-text{
+    font-size: 80px;
+    font-family: "Corm";
+    color: rgb(97, 82, 72);
+    position: relative;
+    left: 430px;
+    display: flex;
+    justify-content: baseline;
+}
+.section-shine .container .photon{
+ z-index: 1000;
+ position: relative; 
+ right: 200px;  
+}
+.section-shine .container .text-up, button{
+    position: relative;
+    right: 570px; 
+    z-index: 1000;
+    font-family: "Montserrat";
+    color:  rgb(255, 255, 255);
+    font-weight: 300;
+}
+.section-shine .container .text-up{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    flex-direction: column;
+}
+.section-shine .container .zakaz{
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 30%;
+    height: 30px;
+    width: 40px;
+    border-color: rgb(255, 255, 255);
+    font-weight: 400;
+    
+}
+.section-shine .container .zakaz:hover{
+color: black;     
+} */
+
+
+
+.section-shine {
+    position: relative;
+    height: 600px;
+}
+
+.section-shine .container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-shine .photon {
+    height: 300px;
+    width: 45%;
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.bacg-text {
+    position: absolute;
+    top: 0;
+    bottom: 60px;
+    right: 0;
+    left: 0;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+
+}
+
+.bacg-text pre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+
+}
+
+.text-up {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+.section-shine .photon a {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1.5px solid white;
+    padding: 6px;
+    width: 105px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+}
+
+.section-shine .container .zakaz:hover {
+    color: black;
+    border: 1.5px solid black;
+}
+
+.section-katalog {
+    margin-top: 35px;
+    height: 500px;
+}
+
+.section-katalog .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 60px;
+    position: relative;
+    right: 50px;
+}
+
+.section-katalog .podpiska {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Montserrat";
+
+}
+
+.section-katalog .podcherk {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.section-katalog .container img {
+    height: 200px;
+    width: 200px;
+}
+
+.section-katalog .podpiska p {
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.815);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-auth {
+    background-image: url(../img/19.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.section-auth .care h2 {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.904);
+    font-size: 50px;
+}
+
+.section-auth .care p {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.822);
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.section-auth .care {
+    width: 750px;
+}
+
+.section-auth .auth {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: rgba(97, 82, 72, 0.986);
+    gap: 30px;
+
+}
+
+.section-auth .auth .name,
+.phone {
+    font-size: 20px;
+    background-color: rgba(245, 245, 220, 0);
+    color: rgba(97, 82, 72, 0.979);
+    border-bottom: solid 2px;
+}
+
+.section-auth .acc {
+    display: flex;
+    gap: 10px;
+    color: rgba(97, 82, 72, 0.979);
+}
+
+.section-auth a {
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.979);
+    font-size: 20px;
+    border: 1.5px solid rgba(97, 82, 72, 0.979);
+    padding: 6px;
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 200px;
+    top: 50px;
+
+}
+
+.section-auth a:hover {
+    color: black;
+    border: 1.5px solid black;
+}
+
+footer {
+    background-image: url(../img/20.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-end .container {
+    width: 1200px;
+}
+
+.section-end .milo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-end h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.section-end p {
+    font-family: "Montserrat";
+    color: rgba(245, 245, 220, 0.589);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+section-end .s {
+    font-size: 10px;
+}
+
+.section-end .adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 220, 0.589);
+    font-weight: 300;
+    position: relative;
+    top: 80px;
+}
+
+.section-end .social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.section-end .social .vk,
+.yt,
+.instgr {
+    border: 1.5px solid rgba(245, 245, 220, 0.589);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 720px;
+    }
+
+    .section-kartinochki .container {
+        width: 1024px;
+        height: 900px;
+        display: flex;
+    }
+
+    .section-navigation .istoria,
+    .princip {
+        gap: 15px;
+        color: rgb(97, 82, 72);
+        font-size: 15px;
+    }
+
+    .section-kartinochki .container .first-pic {
+        display: flex;
+        justify-content: start;
+        align-content: center;
+        width: 160px;
+        height: 160px;
+        position: relative;
+        left: 420px;
+    }
+
+    .section-kartinochki .second-pictures .i3 {
+        position: relative;
+        right: 200px;
+        bottom: 120px;
+        height: 500px;
+        width: 400px;
+    }
+
+    .section-kartinochki p {
+        font-size: 65px;
+        color: rgb(97, 82, 72);
+        font-family: "Corm";
+        position: relative;
+        bottom: 400px;
+        left: 290px;
+        z-index: 1000;
+    }
+
+    .section-kartinochki .second-pictures .i2 {
+        position: relative;
+        bottom: 80px;
+        right: 200px;
+        height: 140px;
+        width: 140px;
+    }
+
+    .section-kartinochki .sign {
+        position: relative;
+        right: 360px;
+        bottom: 50px;
+        opacity: 0.25;
+        height: 120px;
+        width: 120px;
+    }
+
+    .section-loveself .text {
+        font-size: 30px;
+        color: rgb(97, 82, 72);
+        font-family: "Corm";
+    }
+
+    .section-loveself .text pre {
+        font-size: 30px;
+        color: rgb(97, 82, 72);
+        font-family: "Corm";
+    }
+
+    .section-loveself .logo-brown {
+        font-weight: 650;
+        color: rgb(97, 82, 72);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+
+    .section-collection .zagolovok {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        font-size: 30px;
+        position: relative;
+        left: 140px;
+    }
+
+    .section-collection .zagolovok {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        font-size: 30px;
+        position: relative;
+        bottom: 50px;
+        left: 140px;
+        flex-direction: row;
+        align-content: center;
+        align-items: baseline;
+    }
+
+    .section-collection .container .tex {
+        display: flex;
+        font-size: 17px;
+        font-family: Montserrat;
+        font-weight: 500;
+        color: rgb(97, 82, 72);
+        text-transform: uppercase;
+    }
+
+    .section-collection .soap img {
+        height: 240px;
+        width: 240px;
+        position: relative;
+        bottom: 100px;
+        right: 60px;
+    }
+
+    .section-collection .katalog .half {
+        position: relative;
+        right: 150px;
+        height: 240px;
+        width: 240px;
+        bottom: 100px;
+    }
+
+    .section-collection .container {
+        margin: 0 auto;
+        width: 1024px;
+        height: 400px;
+    }
+
+    .section-collection .soap {
+        display: flex;
+        gap: 2px;
+    }
+
+    .section-collection .soap .strela {
+        opacity: 0.5;
+        position: relative;
+        top: 25px;
+        right: 160px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .section-katalog .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 25px;
+        position: relative;
+        right: 50px;
+    }
+
+    .section-collection .soap .description {
+        display: flex;
+        font-family: "Montserrat";
+        width: 80px;
+        color: rgb(97, 82, 72);
+        font-size: 16px;
+        position: relative;
+        top: 130px;
+        right: 300px;
+        gap: 3px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+
+    .section-collection {
+        height: 600px;
+        margin-left: 50px;
+    }
+
+    .section-collection .katalog .price {
+        display: flex;
+        justify-content: start;
+        font-family: "Montserrat";
+        color: rgb(97, 82, 72);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .section-collection .soap .plus {
+        height: 25px;
+        width: 25px;
+        opacity: 0.5;
+        display: flex;
+        position: relative;
+        left: 12px;
+        top: 1px;
+    }
+
+    .section-story .kartinke .vtoraya {
+        height: 170px;
+        width: 170px;
+        border-radius: 0%;
+        position: relative;
+        top: 400px;
+        right: 350px;
+    }
+
+    .section-story .kartinke .pervaia {
+        height: 400px;
+        width: 280px;
+        border-radius: 0%;
+        position: relative;
+        right: 360px;
+        top: 60px;
+
+    }
+
+    .section-story .kartinke .rose {
+        position: relative;
+        left: 220px;
+        height: 600px;
+        width: 150px;
+        opacity: 4;
+
+    }
+
+    .section-story .container {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+    }
+
+    .section-story .opisanie h2 {
+        font-family: "Corm";
+        font-size: 35px;
+        color: rgb(97, 82, 72);
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .section-story .opisanie p {
+        width: 720px;
+        font-size: 20px;
+    }
+
+    .section-story h3 {
+        text-transform: uppercase;
+    }
+
+    .section-story .line {
+        display: flex;
+        justify-content: start;
+        height: 1.5px;
+        width: 45px;
+        font-size: 2px;
+        background-color: rgb(97, 82, 72);
+        margin-top: 15px;
+    }
+
+    .section-plushki .container .cell .textik {
+        font-family: "Corm";
+        font-size: 18px;
+    }
+
+    .section-plushki .cell img {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        left: 120px;
+    }
+
+    .section-plushki .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 250px;
+        width: 1000px;
+        gap: 40px;
+    }
+
+    .section-plushki .container .cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 280px;
+        color: rgb(97, 82, 72);
+        text-align: justify;
+    }
+
+    .bacg-text {
+        position: absolute;
+        top: 0;
+        bottom: 50px;
+        right: 0;
+        left: 0;
+        height: 460px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+        font-size: 85px;
+        color: rgba(97, 82, 72, 0.678);
+        font-family: "Corm";
+        text-align: center;
+    }
+
+    .section-shine .photon {
+        height: 200px;
+        width: 50%;
+        background-image: url(../img/13.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 110px;
+    }
+
+    .text-up {
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: 350;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-up {
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: 350;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section-shine .photon a {
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid white;
+        padding: 8px;
+        width: 105px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    .section-katalog {
+        margin-top: 25px;
+        height: 350px;
+    }
+
+    .section-katalog .podpiska p {
+        font-family: "Montserrat";
+        color: rgba(97, 82, 72, 0.815);
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .section-katalog .podcherk {
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .section-katalog .container img {
+        height: 170px;
+        width: 170px;
+    }
+
+
+    .section-katalog .container {
+        margin: 10px;
+        width: 1024px;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+    }
+
+    .section-auth .care h2 {
+        font-family: "Corm";
+        color: rgba(97, 82, 72, 0.904);
+        font-size: 20px;
+
+    }
+
+    .section-auth .care p {
+        font-family: "Corm";
+        color: rgba(97, 82, 72, 0.822);
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .section-auth .acc {
+        display: flex;
+        gap: 10px;
+        color: rgba(97, 82, 72, 0.979);
+        margin-left: 100px;
+    }
+
+    .section-auth pre {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .section-auth .auth .name,
+    .phone {
+        font-size: 15px;
+        background-color: rgba(245, 245, 220, 0);
+        color: rgba(97, 82, 72, 0.979);
+        border-bottom: solid 2px;
+        margin-left: 100px;
+    }
+
+    .section-auth a {
+        font-family: "Montserrat";
+        color: rgba(97, 82, 72, 0.979);
+        font-size: 15px;
+        border: 1.5px solid rgba(97, 82, 72, 0.979);
+        padding: 4px;
+        width: 110px;
+        height: 90px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 70px;
+    }
+
+    .section-end h3 {
+        font-family: 'Times New Roman', Times, serif;
+        color: beige;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 40px;
+    }
+
+    .section-end p {
+        font-family: "Montserrat";
+        color: rgba(245, 245, 220, 0.589);
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    .section-end .adress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(245, 245, 220, 0.589);
+        font-weight: 300;
+        position: relative;
+        top: 80px;
+        font-size: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            width: 720px;
+        }
+
+        .section-kartinochki .container .first-pic {
+            display: flex;
+            justify-content: start;
+            align-content: center;
+            width: 120px;
+            height: 120px;
+            position: relative;
+            left: 300px;
+            bottom: 50px;
+        }
+
+        .section-kartinochki .second-pictures .i3 {
+            position: relative;
+            right: 300px;
+            bottom: 250px;
+            height: 450px;
+            width: 350px;
+        }
+
+        .section-kartinochki p {
+            font-size: 60px;
+            color: rgb(97, 82, 72);
+            font-family: "Corm";
+            position: relative;
+            bottom: 440px;
+            left: 120px;
+            z-index: 1000;
+        }
+
+        .section-kartinochki .second-pictures .i2 {
+            position: relative;
+            bottom: 250px;
+            right: 270px;
+            height: 120px;
+            width: 120px;
+        }
+
+        .section-kartinochki .sign {
+            position: relative;
+            right: 480px;
+            bottom: 200px;
+            opacity: 0.25;
+            height: 100px;
+            width: 100px;
+        }
+
+        .section-collection .container {
+            margin-left: 5px;
+            width: 760px;
+            height: 120px;
+            display: flex;
+            padding: 10px;
+            gap: 0px;
+
+        }
+
+        .section-collection .katalog .price {
+            display: flex;
+            justify-content: start;
+            font-family: "Montserrat";
+            color: rgb(97, 82, 72);
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .section-collection .soap .plus {
+            height: 20px;
+            width: 20px;
+            opacity: 0.5;
+            display: flex;
+            position: relative;
+            left: 5px;
+            top: 1px;
+        }
+
+        .section-collection .zagolovok {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            font-size: 26px;
+            position: relative;
+            left: 140px;
+        }
+
+        .section-collection .soap .description {
+            display: flex;
+            font-family: "Montserrat";
+            width: 80px;
+            color: rgb(97, 82, 72);
+            font-size: 15px;
+            position: relative;
+            top: 100px;
+            right: 265px;
+            gap: 3px;
+            font-weight: 400;
+            margin-top: 14px;
+        }
+
+        .section-collection .soap img {
+            height: 200px;
+            width: 200px;
+            position: relative;
+            bottom: 100px;
+            right: 60px;
+
+        }
+
+        .section-collection .katalog .half {
+            position: relative;
+            right: 150px;
+            height: 200px;
+            width: 180px;
+            bottom: 100px;
+        }
+
+        .section-collection .soap .strela {
+            opacity: 0.5;
+            position: relative;
+            top: 5px;
+            right: 160px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .section-story .kartinke .vtoraya {
+            height: 120px;
+            width: 120px;
+            border-radius: 0%;
+            position: relative;
+            top: 380px;
+            right: 430px;
+        }
+
+        .section-story .kartinke .pervaia {
+            height: 360px;
+            width: 240px;
+            border-radius: 0%;
+            position: relative;
+            right: 400px;
+            top: 80px;
+
+        }
+
+        .section-story .kartinke .rose {
+            position: relative;
+            left: 70px;
+            height: 550px;
+            width: 130px;
+            opacity: 4;
+
+        }
+
+        .section-story .container {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            width: 760px;
+            margin-left: 85px;
+        }
+
+        .section-story .opisanie h2 {
+            font-family: "Corm";
+            font-size: 30px;
+            color: rgb(97, 82, 72);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .section-story .opisanie p {
+            width: 720px;
+            font-size: 18px;
+        }
+
+        .section-story h3 {
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+        .section-story .line {
+            display: flex;
+            justify-content: start;
+            height: 1.5px;
+            width: 40px;
+            font-size: 2px;
+            background-color: rgb(97, 82, 72);
+            margin-top: 15px;
+        }
+
+        .section-plushki .container .cell .textik {
+            font-family: "Corm";
+            font-size: 16px;
+        }
+
+        .section-plushki .cell img {
+            height: 25px;
+            width: 25px;
+            display: flex;
+            justify-content: end;
+            position: relative;
+            left: 80px;
+        }
+
+        .section-plushki .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 250px;
+            width: 760px;
+
+        }
+
+        .section-plushki .container .cell {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 200px;
+            color: rgb(97, 82, 72);
+
+        }
+
+        .bacg-text {
+            z-index: -1;
+            font-size: 70px;
+            color: rgba(97, 82, 72, 0.678);
+            font-family: "Corm";
+            text-align: center;
+        }
+
+        .section-story img {
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+
+        .section-katalog {
+            height: 300px;
+        }
+
+        .section-katalog .container {
+            width: 760px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .section-katalog .container img {
+            height: 140px;
+            width: 140px;
+        }
+
+        .section-plushki {
+            height: 300px;
+        }
+
+        .section-shine {
+            position: relative;
+            height: 600px;
+        }
+        .bacg-text {
+            z-index: -1;
+            font-size: 70px;
+            color: rgba(97, 82, 72, 0.678);
+            font-family: "Corm";
+            text-align: center;
+        }
+
+        .section-story {
+            height: 800px;
+            width: 768px;
+        }
+
+        .section-collection {
+            height: 300px;
+        }
+
+        .section-end h3 {
+            font-family: 'Times New Roman', Times, serif;
+            color: beige;
+            font-size: 17px;
+            font-weight: 300;
+            margin-top: 40px;
+        }
+
+        .section-end p {
+            font-family: "Montserrat";
+            color: rgba(245, 245, 220, 0.589);
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+
+        .section-end .adress {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(245, 245, 220, 0.589);
+            font-weight: 300;
+            position: relative;
+            top: 80px;
+            font-size: 14px;
+
+        }
+
+        .section-end .social {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+            top: 60px;
+            margin-right: 40px;
+        }
+
+        .section-end .social .vk,
+        .yt,
+        .instgr {
+            border: 1.5px solid rgba(245, 245, 220, 0.589);
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            padding: 6px;
+        }
+        .section-end .container {
+            width: 768px;
+        }
+    }
+    @media (max-width: 375px) {
+    .container {
+        width: 98%;
+    }
+ .section-navigation .istoria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    color: rgb(97, 82, 72);
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+.section-navigation .princip {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+.section-navigation .container {
+    margin: 5px;
+    width: 370px;
+    height: 120px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+section-navigation .logotip .logo {
+    font-size: 24px;
+    color: rgba(97, 82, 72, 0.87);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.section-kartinochki{
+    height: 650px;
+}
+.section-kartinochki .container .first-pic {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 4px;
+    left: 70px;
+}
+.section-kartinochki .second-pictures .i3 {
+    position: relative;
+    right: 530px;
+    bottom: 420px;
+    height: 300px;
+    width: 230px;
+}
+
+.section-kartinochki p {
+    font-size: 40px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+    position: relative;
+    bottom: 520px;
+    left: 0px;
+    z-index: 1000;
+    margin-right: 30px;
+}
+
+.section-kartinochki .second-pictures .i2 {
+    position: relative;
+    bottom: 330px;
+    right: 440px;
+    height: 80px;
+    width: 80px;
+}
+
+.section-kartinochki .sign {
+    position: relative;
+    right: 680px;
+    bottom: 400px;
+    opacity: 0.25;
+    height: 70px;
+    width: 70px;
+}
+.section-loveself .container{
+    width: 370px;
+    margin-bottom: 50px;  
+}
+.section-loveself{
+    height: 250px;
+
+}
+.section-loveself .text {
+    font-size: 20px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+    margin-left: 5px;
+}
+
+.section-loveself .text pre {
+    font-size: 20px;
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+    margin-left: 5px;
+}
+
+.section-loveself .logo-brown {
+    font-weight: 700;
+    color: rgb(97, 82, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.section-loveself .draw {
+    position: relative;
+    right: 145px;
+    bottom: 70px;
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+}
+.section-collection{
+    height: 300px;
+}
+
+.section-collection .container .tex {
+    display: flex;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(97, 82, 72);
+    text-transform: uppercase;
+    
+}
+.section-collection .soap img {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    bottom: 250px;
+    right:35px ;
+}
+.section-collection .katalog .half {
+    position: relative;
+    bottom: 250px;
+    right: 55px ;
+    height: 130px;
+    width: 130px;
+    
+}
+
+.section-collection .container {
+    width: 370px;
+    height: 400px;
+}
+
+.section-collection .soap .strela {
+    display: none;
+    opacity: 0.5;
+    position: relative;
+    right: 55px ;
+    height: 20px;
+    width: 20px;
+}
+
+
+.section-collection .soap .description {
+    display: none;
+    font-family: "Montserrat";
+    width: 80px;
+    color: rgb(97, 82, 72);
+    font-size: 12px;
+    position: relative;
+    top: 130px;
+    right: 300px;
+    gap: 3px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.section-collection {
+    height: 300px;
+    margin-left: 15px;
+}
+
+.section-collection .katalog .price {
+    display: flex;
+    justify-content: start;
+    font-family: "Montserrat";
+    color: rgb(97, 82, 72);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.section-collection .soap .plus {
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+    display: none;
+    position: relative;
+    left: 12px;
+    top: 1px;
+}
+.section-collection .line {
+    display: flex;
+    justify-content: start;
+    height: 2px;
+    width: 40px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-left: 30px;
+}
+.section-story .kartinke .vtoraya {
+    height: 90px;
+    width: 90px;
+    border-radius: 0%;
+    position: relative;
+    
+}
+
+.section-story .kartinke .pervaia {
+    height: 230px;
+    width: 150px;
+    border-radius: 0%;
+    position: relative;
+    right: 130px;
+    top: 260px;
+}
+.section-story .kartinke .rose {
+    position: relative;
+    left: 220px;
+    top: 230px;
+    height: 350px;
+    width: 85px;
+    opacity: 4;
+}
+.section-story .photka .mila {
+    display: flex;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    gap: 8px;
+    font-size: 12px;
+    
+}
+.section-story .text-mila p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.section-story .photka {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 50px;
+}
+.section-story .opisanie {
+    font-family: "Corm";
+    position: relative;
+    bottom: 70px;
+    color: rgb(97, 82, 72);
+    width: 360px;
+}
+
+.section-story .container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 370px;
+    margin-left: 85px;
+}
+.section-story img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.section-story .opisanie h2 {
+    font-family: "Corm";
+    font-size: 22px;
+    color: rgb(97, 82, 72);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-story .opisanie p {
+    width: 362px;
+    font-size: 16px;
+}
+
+.section-story h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section-story .line {
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 35px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-top: 14px;
+}
+.section-story .photka p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 15px;
+}
+.section-story{
+    height: 700px;
+    width: 370px;
+}
+.section-plushki{
+    height: 400px;
+    margin-top: 250px;
+}
+.section-plushki .container{
+    display: flex;
+    justify-content: center;
+}
+.section-plushki .container .cell .textik {
+    font-family: "Corm";
+    font-size: 16px;
+}
+
+.section-plushki .cell img {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 80px;
+}
+
+.section-plushki .container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.section-plushki .container .cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    color: rgb(97, 82, 72);
+    position: relative;
+    right: 25px;
+
+}
+.section-shine {
+    position: relative;
+    height: 300px;
+    width: 370px;
+    margin-bottom: 70px;
+}
+.bacg-text {
+    z-index: -1;
+    font-size: 35px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+    text-align: center;
+}
+.section-shine .photon {
+    height: 200px;
+    width: 50%;
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 110px;
+}
+
+.text-up {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-up {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-shine .photon {
+    height: 120px;
+    width: 65%;
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 142px;
+}
+
+.section-shine .photon a {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: 1.5px solid white;
+    padding: 3px;
+    width: 75px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.section-katalog .container {
+    width: 375px;
+    height: 500px;
+   /* display: flex; 
+    flex-wrap: wrap;
+    gap: 0;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 100px;
+    
+   
+}
+.section-katalog .container img {
+    height: 90px;
+    width: 90px;  
+    margin-left: 40px; 
+}
+
+.section-katalog .container img:nth-child(3){
+display: none;
+}
+.section-auth {
+width: 375px;
+height: 500px;
+}
+.section-auth .container {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+.section-auth .care {
+    width:330px;
+   position: relative;
+   top: 190px;
+}
+.section-auth .care h2 {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.904);
+    font-size: 20px;
+}
+.section-auth .care p {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.822);
+    font-size: 16px;
+    margin-top: 10px;
+}
+.section-auth .auth {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 170px;
+    right: 50px;
+    color: rgba(97, 82, 72, 0.986);
+    gap: 30px;
+    font-size: 15px;
+}
+.section-auth .acc {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    color: rgba(97, 82, 72, 0.979);
+    margin-left: 100px;
+}
+.section-auth pre {
+    font-size: 12px;
+    margin-left: 40px;
+}
+.section-auth a {
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.979);
+    font-size: 15px;
+    border: 1.5px solid rgba(97, 82, 72, 0.979);
+    padding: 3px;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 143px;
+    margin-bottom: 70px;
+}
+.section-end .container {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+.section-end .social {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    
+    top: 100px;
+}
+.section-end .social .vk,
+        .yt,
+        .instgr {
+            border: 1.5px solid rgba(245, 245, 220, 0.589);
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            padding: 4px;
+        }
+        .section-end h3 {
+            font-family: 'Times New Roman', Times, serif;
+            color: beige;
+            font-size: 15px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+        .section-end p {
+            font-family: "Montserrat";
+            color: rgba(245, 245, 220, 0.589);
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 8px;
+        }
+        .section-end .adress {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            color: rgba(245, 245, 220, 0.589);
+            font-weight: 300;
+            position: relative;
+
+            top: 80px;
+            font-size: 12px;
+        }
+        .section-end .milo {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 40px;
+        }
+
+}
+            
+        
+}
+    
